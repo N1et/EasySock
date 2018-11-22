@@ -17,7 +17,6 @@ class Socks_cl
         bool connects();
         bool sends(const char []);
         char* recvs(int);
-        void closes();
 
 };
 Socks_cl::Socks_cl(const char host[], int port_in) : port(port_in){
@@ -42,7 +41,4 @@ char* Socks_cl::recvs(int size) {
     buffer = (char*) malloc( size*sizeof(char) );
     recv(sock, buffer, sizeof(buffer), 0);
     return buffer;
-}
-void Socks_cl::closes(){
-    close(sock);
 }
