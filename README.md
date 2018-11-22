@@ -1,7 +1,7 @@
 # EASY SOCKET
 Just to train c++. i built a lib for socket abstraction.<br>
 i didn't finish the server side.<br>
-**My First non-python repository, bitch!** 
+**My First non-python repository, bitch!** <br>
 Example code
 ```cpp
 #include <iostream>
