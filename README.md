@@ -3,7 +3,7 @@ Just to train c++. i built a lib for socket abstraction.
 i didn't finish the server side.
 
 Example code
-```
+```cpp
 #include <iostream>
 #include "clientsock.cpp"
 #include <cstring>
